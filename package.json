@@ -1,0 +1,22 @@
+{
+  "name": "rollmaster-bot-dashboard",
+  "version": "1.0.0",
+  "description": "Discord bot with dashboard like ProBot",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "server": "node server/server.js",
+    "register": "node register-commands.js"
+  },
+  "author": "Kurona",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.1.1",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}
