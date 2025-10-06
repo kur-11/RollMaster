@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎛️ لوحة تحكم RollMaster</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background: radial-gradient(circle at top left, #1a0033, #0a001a);
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+    }
+    h1 {
+      color: #b388ff;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #ccc;
+      font-size: 16px;
+    }
+    .card {
+      background: #1c0d2a;
+      display: inline-block;
+      padding: 20px 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #8b2fff55;
+      margin-bottom: 25px;
+      font-size: 18px;
+    }
+    .guild {
+      background: #2a153b;
+      margin: 10px auto;
+      border-radius: 10px;
+      padding: 12px;
+      width: 85%;
+      max-width: 500px;
+      box-shadow: 0 0 10px #8b2fff33;
+      text-align: left;
+      transition: 0.2s;
+    }
+    .guild:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 20px #b388ff44;
+    }
+    .guild strong {
+      color: #d3b3ff;
+    }
+    a.logout {
+      color: #ff9b9b;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    a.logout:hover {
+      text-decoration: underline;
+    }
+    a.manage {
+      color: #b388ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.manage:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 13px;
+      opacity: 0.5;
+    }
+    #loading {
+      margin-top: 40px;
+      font-size: 18px;
+      color: #b388ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎛️ لوحة تحكم RollMaster</h1>
+  <p><a class="logout" href="/logout">تسجيل الخروج</a></p>
+
+  <div id="me"></div>
+  <div id="loading">🔄 جارِ تحميل بياناتك...</div>
+
+  <h3>🪄 السيرفرات اللي عندك صلاحية المشرف فيها</h3>
+  <div id="guilds"></div>
+
+  <footer>© 2025 RollMaster Bot — Discord Dashboard</footer>
+
+  <script>
+    async function load() {
+      try {
+        const meRes = await fetch("/api/me");
+        const me = await meRes.json();
+
+        if (!me.ok) {
+          document.getElementById("me").innerHTML =
+            '<p>⚠️ غير مسجل الدخول. <a href="/">الرجوع لتسجيل الدخول</a></p>';
+          document.getElementById("loading").remove();
+          return;
+        }
+
+        document.getElementById("me").innerHTML = `
+          <div class="card">👤 متصل باسم: <strong>${me.user.username}</strong></div>
+        `;
+
+        const guildRes = await fetch("/api/my-guilds");
+        const g = await guildRes.json();
+
+        document.getElementById("loading").remove();
+        const container = document.getElementById("guilds");
+
+        if (!g.ok || !g.guilds || g.guilds.length === 0) {
+          container.innerHTML = "<p>😅 لا توجد سيرفرات عندك صلاحية فيها أو لم يتم استرجاعها.</p>";
+          return;
+        }
+
+        container.innerHTML = g.guilds.map(x => `
+          <div class="guild">
+            <strong>${x.name}</strong><br>
+            <small>ID: ${x.id}</small><br>
+            <a class="manage" href="/manage?guild=${x.id}">⚙️ إدارة السيرفر</a>
+          </div>
+        `).join("");
+      } catch (err) {
+        document.getElementById("loading").innerHTML =
+          "❌ حدث خطأ أثناء تحميل البيانات. أعد تسجيل الدخول.";
+        console.error("Dashboard error:", err);
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>
