@@ -1,0 +1,300 @@
+{
+  "attendanceLists": [
+    {
+      "name": "AC",
+      "title": "سجل الحضور",
+      "description": "@everyone اضغط على الزر الي تحت",
+      "startTime": "14:28",
+      "endTime": "14:29",
+      "sendTime": "2:28",
+      "frequency": "daily",
+      "channelId": "1384229156384014406",
+      "guildId": "1384226087571292160",
+      "createdBy": "1008800736781537300",
+      "messageId": null,
+      "attendees": []
+    },
+    {
+      "name": "AAC",
+      "title": "gg",
+      "description": "gg",
+      "startTime": "2:35",
+      "endTime": "2:35",
+      "sendTime": "2:34",
+      "frequency": "daily",
+      "channelId": "1384229156384014406",
+      "guildId": "1384226087571292160",
+      "createdBy": "1008800736781537300",
+      "messageId": null,
+      "attendees": []
+    },
+    {
+      "name": "ac1",
+      "title": "سجل حضورك",
+      "description": "ggg",
+      "startTime": "15:11",
+      "endTime": "15:12",
+      "sendTime": "15:10",
+      "frequency": "daily",
+      "channelId": "1384229156384014406",
+      "guildId": "1384226087571292160",
+      "createdBy": "1008800736781537300",
+      "messageId": "1424368022403158080",
+      "attendees": []
+    },
+    {
+      "name": "ggggggggg",
+      "title": "gg",
+      "description": "g",
+      "startTime": "15:57",
+      "endTime": "15:58",
+      "sendTime": "15:56",
+      "frequency": "daily",
+      "channelId": "1384229156384014406",
+      "guildId": "1384226087571292160",
+      "createdBy": "1008800736781537300",
+      "messageId": null,
+      "attendees": []
+    },
+    {
+      "name": "ggg",
+      "title": "g",
+      "description": "g",
+      "startTime": "16:00",
+      "endTime": "16:02",
+      "sendTime": "15:59",
+      "frequency": "daily",
+      "channelId": "1384229156384014406",
+      "guildId": "1384226087571292160",
+      "createdBy": "1008800736781537300",
+      "messageId": "1424380353933480108",
+      "attendees": [
+        "1008800736781537300",
+        "1338572692567359521"
+      ],
+      "warnings": {
+        "1008800736781537300": 0,
+        "1338572692567359521": 0,
+        "1408489327314341900": 1,
+        "1413815966424629342": 1
+      }
+    },
+    {
+      "name": "تسجيل حضور",
+      "title": "اا",
+      "description": "اا",
+      "startTime": "17:39",
+      "endTime": "17:40",
+      "sendTime": "17:38",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384245860145303762",
+      "attendees": [
+        "1008800736781537300"
+      ],
+      "warnings": {
+        "1008800736781537300": 0
+      },
+      "messageId": "1424405268321665109"
+    },
+    {
+      "name": "ااااااااااااا",
+      "title": "اااااا",
+      "description": "ااا",
+      "startTime": "17:44",
+      "endTime": "17:45",
+      "sendTime": "17:43",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384245860145303762",
+      "attendees": [
+        "1008800736781537300"
+      ],
+      "warnings": {
+        "1008800736781537300": 0
+      },
+      "messageId": "1424406526633836695"
+    },
+    {
+      "name": "hhtu",
+      "title": "ti",
+      "description": "gu",
+      "startTime": "18:06",
+      "endTime": "18:07",
+      "sendTime": "18:05",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384245860145303762",
+      "attendees": [
+        "1008800736781537300"
+      ],
+      "warnings": {
+        "1008800736781537300": 0
+      },
+      "messageId": "1424412063173709966"
+    },
+    {
+      "name": "hsgsh",
+      "title": "yegej",
+      "description": "tt",
+      "startTime": "18:18",
+      "endTime": "18:20",
+      "sendTime": "18:16",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384364814360641536",
+      "attendees": [],
+      "warnings": {},
+      "messageId": null
+    },
+    {
+      "name": "ggsjh",
+      "title": "7363",
+      "description": "dudh",
+      "startTime": "18:19",
+      "endTime": "18:20",
+      "sendTime": "18:18",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384364814360641536",
+      "attendees": [],
+      "warnings": {
+        "1008800736781537300": 1
+      },
+      "messageId": null
+    },
+    {
+      "name": "kkkiwtkwt",
+      "title": "ysyshs",
+      "description": "usue",
+      "startTime": "18:19",
+      "endTime": "18:19",
+      "sendTime": "18:18",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384364814360641536",
+      "attendees": [],
+      "warnings": {},
+      "messageId": null
+    },
+    {
+      "name": "ytsi",
+      "title": "iyjssh",
+      "description": "eyuee",
+      "startTime": "18:20",
+      "endTime": "18:21",
+      "sendTime": "18:19",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1402406958358724718",
+      "warningsChannelId": "1384364814360641536",
+      "attendees": [
+        "1008800736781537300",
+        "1413815966424629342",
+        "1338572692567359521"
+      ],
+      "warnings": {
+        "1008800736781537300": 0,
+        "1413815966424629342": 0,
+        "1338572692567359521": 0
+      },
+      "messageId": "1424415586401910785"
+    },
+    {
+      "name": "hrquw",
+      "title": "ttys",
+      "description": "hdgshh",
+      "startTime": "18:52",
+      "endTime": "18:53",
+      "sendTime": "18:51",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384364814360641536",
+      "attendees": [
+        "1008800736781537300",
+        "1413815966424629342",
+        "1338572692567359521"
+      ],
+      "warnings": {
+        "1008800736781537300": 0,
+        "1413815966424629342": 0,
+        "1338572692567359521": 0
+      },
+      "messageId": "1424423639352086538"
+    },
+    {
+      "name": "jewu",
+      "title": "tywye",
+      "description": "yeehy",
+      "startTime": "19:07",
+      "endTime": "19:08",
+      "sendTime": "19:06",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384245860145303762",
+      "attendees": [],
+      "warnings": {
+        "1008800736781537300": 1
+      },
+      "messageId": null
+    },
+    {
+      "name": "itwu",
+      "title": "wyte",
+      "description": "shhd",
+      "startTime": "19:08",
+      "endTime": "19:09",
+      "sendTime": "19:07",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384364814360641536",
+      "attendees": [
+        "1008800736781537300",
+        "1413815966424629342",
+        "1338572692567359521"
+      ],
+      "warnings": {
+        "1008800736781537300": 0,
+        "1413815966424629342": 0,
+        "1338572692567359521": 0
+      },
+      "messageId": "1424427666005561365"
+    },
+    {
+      "name": "ktpo",
+      "title": "hetey",
+      "description": "hdgdh",
+      "startTime": "11:56",
+      "endTime": "12:26",
+      "sendTime": "11:50",
+      "frequency": "daily",
+      "guildId": "1384226087571292160",
+      "channelId": "1384229156384014406",
+      "roleId": "1400899816904589432",
+      "warningsChannelId": "1384245860145303762",
+      "attendees": [],
+      "warnings": {},
+      "messageId": null
+    }
+  ],
+  "schedules": []
+}
